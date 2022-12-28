@@ -1,0 +1,140 @@
+<!DOCTYPE html> <!-- INDICAMOS EL TIPO DE DOCUMENTO -->
+<html lang="en"> <!-- LA ETIQUETA html CONTIENE TODA NUESTRA PÁGINA -->
+    <!-- HEAD SIRVE PARA DARLE INFORMACIÓN ADICIONAL AL NAVEGADOR SOBRE NUESTRA PÁGINA -->
+    <head> 
+        <meta charset="UTF-8"> <!-- ETIQUETA meta SIVRE PARA DAR INFORMACIÓN ADICIONAL AL NAVEGADOR DE COMO INTERPRETAR ALGUNAS COSAS -->
+
+        <title>Titulo del sitio</title> <!-- title SRIVE APRA DARLE UN TITULO A NUESTRO SITIO -->
+    </head>
+
+    <!-- EN BODY VA TODO EL CONTENIDO DE NUESTRA PÁGINA -->
+    <body>
+        
+        <!-- EN HTML TENEMOS 2 TIPOS DE ETIQUETA, LAS QUE SON PARA AGREGAR CONTENIDO Y LAS QUE SON SOLO DE ESTRUCTURA O SEMANTICA -->
+
+        <!-- EMPEZAMOS PRIMERO CON LAS ETIQUETAS DE CONTENIDO -->
+
+        <p>Parrafo</p><!-- ETIQUETA p ES PARA PARRAFOS -->
+
+        <!-- LAS ETIQUETAS h1 HASTA EL h6 SIRVEN PARA TITULOS Y ENCABEZADOS -->
+        <h1>Encabezado H1</h1>
+        <h2>Encabezado H2</h2>
+        <h3>Encabezado H3</h3>
+        <h4>Encabezado H4</h4>
+        <h5>Encabezado H5</h5>
+        <h6>Encabezado H6</h6>
+
+        <!-- LA ETIQUETA a SIRVE PARA AGREGAR LINKS A NUESTRA PÁGINA, EN EL ATRIBUTO href VA EL LINK A DONDE QUEREMOS QUE NO REDIRIJA EL LINK -->
+        <a href="UrlLink">Link</a>
+
+        <!-- ETIQUETA img ES PARA COLOCAR IMAGENES, EN EL ATRIBUTO src VA LA URL DONDE ESTA UBICADA LA IMAGEN QUE QUEREMOS MOSTRAR, Y EN EL ATRIBUTO alt VA UNA DESCRIPCIÓN DE LA IMG (EN CASO DE QUE FALLE LA URL DE LA IMG SE MOSTRARA LO QUE SE HALLA ESCRITO EN EL ATRIBUTO alt) -->
+        <img src="https://www.webconsultas.com/sites/default/files/styles/wc_adaptive_curiosidad__small/public/articulos/perro-infecciones.jpg" alt="descripción de img">
+
+        <!-- hr ES UTILIZADO COMO SEPARADOR, CREA UNA LIENA HORIZONTAL A LOLARGO DEL SITIO -->
+        <hr>
+
+        <!-- CON ol CREAMOS UNA LISTA ORDENADA Y CON LAS ETIQUETAS li ESPECIFICAMOS QUE ITEMS VAN EN LA LISTA -->
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ol>
+
+        <!-- CON ul CREAMOS UNA LISTA DESORDENADA Y CON LAS ETIQUETAS li ESPECIFICAMOS QUE ITEMS VAN EN LA LISTA -->
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+
+        <!-- br CREA UN SALTO DE LINEA -->
+        <br>
+
+        <!-- iframe ES USADO PARA INCRUSTAR CONTENIDO DE OTROS SITIOS WEB EN NUESTRIO SITIO, YA SEAN VIDEOS DE YOUTUBE, MUSICA SPOTIFY, MAPAS ETC. -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7wtfhZwyrcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <!-- ESTA ES UAN ESTRUCTURA BÁSICA DE UNA TABLA EN HTML, LA ESTRUCTURA PUEDE CAMBIAR CONFORME LO QUE SE QUIEREA HACER -->
+        <table>
+            <caption>Titulo de la tabla</caption>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Celda 1</td>
+                    <td>Celda 2</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Footer 1</td>
+                    <td>Footer 2</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <!-- LA ETIQUETA from ES USADO PARA ENCERRAR UN FORMULARIO QUE TENGAMOS EN UN SITIO -->
+        <form>
+            <!-- label ES USADO PARA AYUDAR AL USUARIO QUE SE TIENE QUE INDICAR EN LOS INPUTS, EL ATRIBUTO FOR TIENE QUE TENER EL MISMO VALOR QUE EL ATRIBUTO ID DE UNA ETIQUETA input PARA PODER VINCULARLOS COMO SE MUESTRA EN EL EJEMPLO -->
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre">
+
+            <!-- ACONTINUACIÓN VIENEN LOS DIFERENTES TIPOS DE INPUTS QUE TENEMOS EN HTML -->
+            <input type="button" value="submit">
+            <input type="checkbox">
+            <input type="color" name="" id="">
+            <input type="date" name="" id="">
+            <input type="email" name="" id="">
+            <input type="file" name="" id="">
+            <input type="datetime-local" name="" id="">
+            <input type="image" src="" alt="">
+            <input type="number" name="" id="">
+            <input type="password" name="" id="">
+            <input type="month" name="" id="">
+            <input type="radio" name="" id="">
+            <input type="range" name="" id="">
+            <input type="reset" value="">
+            <input type="search" name="" id="">
+            <input type="submit" value="">
+            <input type="tel" name="" id="">
+            <input type="url" name="" id="">
+            <input type="time" name="" id="">
+            <input type="week" name="" id="">
+
+            <!-- DENTRO DE LOS FORMS PODEMOS CREAR SELECT QUE SON PEQUEÑOS MENUS CON MUCHAS OPCIONES QUE EL USUARIO PUEDE ESCOGER, COMO SE MUESTRA EN EL SIGUIENTE EJEMPLO -->
+            <select name="" id="">
+                <option value="valor1">Valor 1</option>
+                <option value="valor2">Valor 2</option>
+            </select>
+
+            <!-- EN LOS FROMS TAMBIEN PODEMOS TENER texarea QUE SON PEQUEÑAS CAJAS DONDE PODEMOS ESCRIBIR MÁS DE UN SOLO RENGLON DE PURO TEXTO O NÚMEROS -->
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </form>
+
+        <!-- AHORA VAMOS CON LAS ETIQUETAS DE ESTRUCTURA O SEMANTICA -->
+
+        <!-- main LO USAMOS CUANDO VAMOS A AGREGAR UNA SECCIÓN PRINCIPAL -->
+        <main></main> 
+
+        <!-- header LO USAMOS PARA LA SECCIÓN PRINCIPAL DEL SITIO, SOLO SE UTILIZA UNA SOLA VEZ -->
+        <header></header>
+
+        <!-- section LO USAMOS PARA ENGLOBAR UNA SECCIÓN QUE TENGA NUESTRO SITIO -->
+        <section></section>
+
+        <!-- footer ES USADO PARA AGREGAR UN PIE DE PÁGINA DE NUESTRO SITIO -->
+        <footer></footer>
+
+        <!-- nav ES UTILIZADO PARA ENCERAR UN MENÚ DE NAVEGACIÓN -->
+        <nav></nav>
+
+        <!-- div ES USADO COMO CONTENEDOR GENERICO PARA IR SECCIONANDO EL SITIO EN VARIAS SECCIONES -->
+        <div></div>
+
+        <!-- span ES UTILIZADO PARA ENCERRAR CIERTOS TEXTOS Y DARLES CARACTERISTICAS CON class Y id -->
+        <span></span>
+
+
+    </body>
+</html>
