@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <h2>Propiedad Flex</h2>
+        <div class="container">
+            <div class="caja caja-1">Caja 1</div>
+            <div class="caja caja-2">Caja 2</div>
+        </div>
+
+        <h2>Flex direction</h2>
+        <p>Con "Flex direction" podemos cambiar el comportamiento de la propiedad "flex" indicando si los elementos hijos los queremos en columnas, filas, columnas al revés y filas al revés. Las propiedades que acepta "flex direction" son "coulmn", "row", "coulmn-reverse" and "row-reverse"</p>
+        <div class="container container-direction">
+            <div class="caja caja-1">Caja 1</div>
+            <div class="caja caja-2">Caja 2</div>
+        </div>
+
+        <h2>Justify-content</h2>
+        <p>Justify-content nos ayuda a acomodar los elementos de forma horizontal (solo cuando la propiedad "flex-direction" esta en "row" o "row-reverse"). Con "Justify-content" podemos distribuir los elementos con diferentes valores que son "space-around", "space-between", "center", "space-evenly", "flex-start", "flex-end". Prueba modificando el "CSS" para ver el comportamiento de cada valor</p>
+        <div class="container justify">
+            <div class="caja caja-1">Caja 1</div>
+            <div class="caja caja-2">Caja 2</div>
+        </div>
+
+        <h2>align-items</h2>
+        <p>Align-items nos ayuda a acomodar los elementos de forma vertical (solo cuando la propiedad "flex-direction" esta en "row" o "row-reverse"). Con "Justify-content" podemos distribuir los elementos con diferentes valores que son "space-around", "space-between", "center", "space-evenly", "flex-start", "flex-end". Prueba modificando el "CSS" para ver el comportamiento de cada valor</p>
+        <div class="container align">
+            <div class="caja caja-1">Caja 1</div>
+            <div class="caja caja-2">Caja 2</div>
+        </div>
+
+
+        <p>NOTA: CUANDO "flex-direction" TIENE EL VALOR "coulmn" o "coulmn-reverse" el comportamiento de "Justify-content" y "align-items" se invierten, ocasionando que Justify-content ordene los elementos verticalmente y align-items ordene los elementos horizontalmente.Veamos esto con un ejemplo.</p>
+
+
+        <h2>Justify-content con "Flex direction: coulmn ó coulmn-reverse"</h2>
+        <div class="container justify-reverse">
+            <div class="caja caja-1">Caja 1</div>
+            <div class="caja caja-2">Caja 2</div>
+        </div>
+
+        <h2>align-items con "Flex direction: coulmn ó coulmn-reverse"</h2>
+        <div class="container align-reverse">
+            <div class="caja caja-1">Caja 1</div>
+            <div class="caja caja-2">Caja 2</div>
+        </div>
+    </body>
+</html>

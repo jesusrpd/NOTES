@@ -1,0 +1,48 @@
+/* EN CSS TENEMOS VARIEDAD DE UNIDADES Y LONGITUDES PARA DARLES UN TAMAÑO A NUESTROS ELEMENTOS */
+
+/* PRIMERO EMPECEMOS CON LAS LONGITUDES QUE SE DIVIDEN EN "ABSOLUTAS" Y "RELATIVAS" */
+
+/* LONGITUDES ABSOLUTAS */
+/* -cm -> centimetros
+-mm -> milimetros
+-Q -> cuarto de milimetro
+-in -> pulgadas
+-pc -> picas
+-pt -> puntos
+-px -> pixeles
+
+DE LAS LONGITUDES ABSOLUTAS LAS MÁS UTILIZADAS SON LOS "px" y "pt"
+*/
+
+
+/* LONGITUDES RELATIVAS */
+/* -em
+-ex
+-cap
+-ch
+-ic
+-rem
+-lh
+-rlh
+
+DE LAS LONGITUDES RELATIVAS LAS MÁS UTILIZADAS SON LOS "em" y "rem" */
+
+
+/* UNIDADES RELATIVAS */
+/* vw
+vh
+vi
+vb
+vmin
+vmax
+
+DE LAS UNIDADES ABSOLUTAS LAS MÁS UTILIZADAS SON LOS "vw" y "vh" */
+
+
+
+/* AQUI ESTA LA MODIFICACIÓN DE UN DIV, PUEDES MODIFICAR LAS UNIDADES PARA VER LAS DIFERENCIAS QUE VIMOS EN ESA CLASE */
+div{
+    width: 50vw;
+    height: 600px;
+    background: red; /*CON ESTA PROPIEDAD SOLO CAMBIAMO EL COLOR DE FONDO DEL ELEMENTO*/
+}

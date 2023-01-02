@@ -1,0 +1,53 @@
+/* DISPLAY FLEX O MÁS BIEN CONOCIDO COMO "FLAXEBOX" ES UNA METODOLOGÍA USADA PARA ACOMODAR LAS ETIQUETAS O CAJAS CON AYUDA DE ESTA PROPIEDAD Y MÁS */
+
+/* PARA QUE LA METODOLOGÍA "FLEXBOX" FUNCIONE TIENE QUE APLICARSE ESTA PROPIEDAD A UNA ETIQUETA PADRE QUE TIENE ETIQUETAS HIJAS PARA MOSTRAR SU COMPORTAMIENTO */
+
+/* PARA ENTENDER ESTO LE DIMOS A LAS ETIQUETAS "DIV" HIJAS UNA CLASE LLAMADA "CAJA" Y A LA ETIQUETA PADRE LA CLASE "CONTAINER" */
+
+
+/* PRIMERO A LAS ETIQUETAS HIJAS LES DAREMOS UN TAMAÑO Y COLOR PARA DIFERENCIARLAS  Y AL "CONTAINER" LE DAREMOS UN BACKGROUND Y MARGIN PARA PODER TENER LAS COSAS MÁS CLARAS Y ENTENDER ESTE TEMA*/
+/* PUEDES VER EL HTML DE ESTA LECCIÓN PARA ENTENDER BIEN A QUE ETIQUETAS NOS ESTAMOS REFIRIENDO */
+.container{
+    width: 100%;
+    background: orange;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;  /*APLICAMOS PROPIEDAD FLEX Y VEMOS QUE LOS "DIV" HIJOS TIENEN UN COMPORTAMIENTO DIFERENTE*/
+}
+
+.caja{
+    width: 100px;
+    height: 100px;
+}
+
+.caja-1{
+    background: red;
+}
+
+.caja-2{
+    background: green;
+}
+
+.container-direction{
+    flex-direction: column;
+}
+
+.justify{
+    justify-content: space-evenly;
+}
+
+.align{
+    align-items: center;
+}
+
+.justify-reverse{
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.align-reverse{
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+}

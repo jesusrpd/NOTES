@@ -1,0 +1,29 @@
+/* EN CSS PODEMOS ASIGNAR COLORES EN DIFERENTES FORMATOS QUE SON
+
+-HEXADECIMALES
+-RGB
+-RGBA
+-HSL
+-SOLIDOS */
+
+/* DA IGUAL CUAL FORMATO OCUPES, SE PUEDE LLEGAR A LA MISMA TONALIDAD DE COLOR SIN IMPORTAR EL FORMATO DE COLOR QUE SE USE (EL FORMATO MÁS FAMOSO USADO ES EL HEXADECIMAL POR SU SIMPLICIDAD)*/
+
+.color-hex{
+    color: #ffd900;
+}
+
+.color-rgb{
+    color: rgb(255, 94, 0);
+}
+
+.color-rgba{
+    color: rgba(255, 217, 0, 0.733);
+}
+
+.color-hsl{
+    color: hsl(337, 100%, 50%);
+}
+
+.color-sol{
+    color: blue;
+}
