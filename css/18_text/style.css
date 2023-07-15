@@ -1,15 +1,40 @@
+/* TIPOGRAFIAS */
+
 p{
-    /* text-decoration-style: double; */
-    /* font-style: italic; */
+    /* CON ESTA PROPIEDAD PODEMODECORAR EL STILO DEL TEXTO */
+    text-decoration-style: double;
+
+    /* CON ESTA PROPIEDAD PODEMOS USAR ESTILOS DE LA TIPOGRAFIRA COMO ITALIC, NORMAL O OBLIQUE */
+    font-style: italic;
+
+    /* CON ESTA PROPIEDAD LE DAMOS UN ANCHO A LAS LETRAS YA SE AUN GROSOR MAYOR O MENOR */
     font-weight: bold;
+
+    /* AQUÍ ESPECIFICAMOS UNA TIPOGRAFIA EN ESPECIFICO, LA TIPOGRAFIA EN ESTE CASO LA SACAMOS DE GOOGLE FONTS */
     font-family: url(https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Raleway:wght@300;500;600;700&display=swap);
+    
+    /* AQUI ESPECIFICAMOS EL TAMAÑO DE LA TIPOGRAFIA */
     font-size: 30px;
+
+    /* AQUÍ INDICAMOS EL ESPACIADO ENTRE LETRAS */
     letter-spacing: 20px;
+
+    /* CON ESTA PROPIEDAD ESPECIFICAMOS EL ESPACIADO ENTRE PALABRAS */
     word-spacing: 10px;
-    /* text-decoration: underline; */
-    /* text-decoration-color: red; */
-    /* text-indent: 50px;s */
+
+    /* CON ESTA PROPIEDAD PONEMOS UNA DECORACIÓN AL TEXTO COMO UNDERLINE, OVERLINE,LINE-THrought */
+    text-decoration: line-through;
+
+    /* AQUÍ ESPECIFICAMOS EL COLOR DE LA LINEA DE DECORACIÓN */
+    text-decoration-color: red;
+
+    /* AQUÍ LE DAMOS UNA IDENTACIÓN AL TEXTO */
+    text-indent: 50px;
+
+    /* AQUÍ ESPECIFICAMOS EN QUE DIRECCIÓN ESTARÁ ESPECIFICADA EL TEXTO, YA SEA LEFT, RIGHT O JUSTIFY */
     text-align: left;
-    /* writing-mode: vertical-lr; */
-    /* text-orientation: mixed; */
+
+    /* CON ESTO PODEMOS DECIR QUE EL TEXTO ESTE ESCRITO DE FORMA VERTICAL */
+    writing-mode: vertical-lr;
+
 }
