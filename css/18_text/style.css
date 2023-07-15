@@ -1,0 +1,15 @@
+p{
+    /* text-decoration-style: double; */
+    /* font-style: italic; */
+    font-weight: bold;
+    font-family: url(https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Raleway:wght@300;500;600;700&display=swap);
+    font-size: 30px;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+    /* text-decoration: underline; */
+    /* text-decoration-color: red; */
+    /* text-indent: 50px;s */
+    text-align: left;
+    /* writing-mode: vertical-lr; */
+    /* text-orientation: mixed; */
+}

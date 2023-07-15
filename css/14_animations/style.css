@@ -1,0 +1,35 @@
+/* ANIMACIONES */
+
+/* AQUI CREAMOS UNA PEQUEÑA ANIMACIÓN, MÁS ADELANTE VEREMOS COMO CREAR MÁS Y MÁS PROPIEDADES UTILES PARA CREAR ESTAS ANIMACIONES, POR EL MOMENTO PUEDES IR MOVIENDO LAS PROPIEDADES DE ESTA ANIMACIÓN PARA QUE ENTIENDAS MEJOR EL POR QUE DE CADA PROPIEDAD QUE USAMOS EN ESTA ANIMACIÓN */
+.pulser{
+    width: 30px;
+    height: 30px;
+    background: purple;
+    border-radius: 50%;
+    position: relative;
+}
+
+.pulser::after{
+    animation: pulse 1000ms  ease-in-out infinite;
+}
+
+@keyframes pulse{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        transform: scale(1.4);
+        opacity: 0.4;
+    }
+}
+
+.pulser::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: purple;
+    border-radius:50%;
+}
