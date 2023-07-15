@@ -1,0 +1,32 @@
+p{
+    /* DE ESTA FORMA DEFINIMOS UN BORDE PARA NUESTRO ELEMENTO */
+    border: 10px solid red;
+
+
+    /* OTRA ALTERNATIVA DE DEFINIR EL MISMO BORDER ROJO DE ARRIBA ES LA SIGUIENTE */
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+
+    /* CON ESTA PROPIEDAD PONEMOS UN BORDE CON UNA IMAGEN */
+    border-image: url(./carro.avif);
+
+
+    /* CON ESTA PROPIEDAD DEFINIMOS UN BORDE REDONDEADO A NUESTRO ELEMENTO */
+   border-radius: 10px;
+
+
+   /* DE LA SIEGUIENTE FORMA PODEMOS CAMBIAR EL REDONDEO DE CADA ESQUINA EN ESPECIFICO */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 15px;
+
+   
+    /* DE LA SIGUIENTE FORMA PODEMOS ESTABLECER UN BORDE DIFERENTE EN CADA LADO DEL ELEMENTO */
+   border-top: 10px dashed blue;
+   border-left: 5px solid green;
+   border-right: 20px double red;
+   border-bottom: 15px solid orange;
+
+}

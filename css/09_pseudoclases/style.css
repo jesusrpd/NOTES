@@ -1,0 +1,51 @@
+/* PSEUDOCLASES */
+/* Son cambios que van a tener las etiquetas basados en un estado de cambio como por ejemplo cuando se pasa el cursor sobre un elemento, se actriva un link etc. */
+
+/* HOVER -> Esta pseudoclase nos permite cambiar los estilos cuando pasamos el cursor sobre la etiqueta seleccionada con la pseudoclase hober */
+p:hover{
+    color: red;
+    background: yellow;
+}
+
+/* ACTIVE -> Cambiamos los estilos de los links que estan activados, osea cuando les damos click o le dejamos pulsado al boton se activa esta pseudoclase */
+button:active{
+    color: blue;
+}
+
+/* FOCUS -> Este estado se activa cuando hacemos focus a un botton o elemento, como cuando le damos click y la página se queda enfocando ese elemento o presionamos la tecla "tab" para ir enfocando diferentes elementos del sitio,ahí podemos cambiar los estilos con la pseudoclase focus */
+button:focus{
+    outline: 2px dashed blue;
+    outline-offset: 2px;
+    background: green;
+}
+
+/* TARGET -> Nos ayuda a seleccionar una etiqueta en especifico, en este ejemplo ponemos de color morado aquellos elementos que tienen un id llamado recipe y por medio de un link seleccionamos esa seccion */
+#recipe:target, #recipet:target ~ *{
+    background: purple;
+}
+
+/* VISITES -> Se activan estos estilos a los links que ya hemos visitado en el sitio */
+a:visited{
+    color: aqua;    
+
+}
+
+/* DISABLED -> APLICAMOS ESTILOS CON ESTA PSEUDOCLASE A LOS ELEMENTOS O BOTONES QUE ESTAN DESBILITADOS EN EL SITIO */
+button:disabled{
+    background: rgb(35, 212, 50);
+}
+
+/* ENABLED -> APLICAMOS ESTILOS CON ESTA PSEUDOCLASE A LOS ELEMENTOS O BOTONES QUE ESTAN HABILITADOS EN EL SITIO */
+button:enabled{
+    background: rgb(182, 59, 59);
+}
+
+/* CHECKED -> PODEMOS CAMBIAR ALGUNOS ESTILOS CUANDO LA CASILLA DE UN INPUT TIPO CHECKED ESTE MARCADA */
+input:checked{
+    box-shadow: 20px 10px black;
+}
+
+/* NTH-CHILD -> SELECCIONAMOS CIERTOS PATRONES COMO ELEMENTOS PARES ETC PARA MODIFICAR SUS ESTILOS */
+p:nth-child(3n+3){
+    background: brown;
+}
