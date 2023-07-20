@@ -1,0 +1,64 @@
+/* RESPONSIVE DESIGN */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+h1{
+    color: red;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+}
+.content{
+    display: flex;
+}
+.caja1{
+    background: green;
+}
+
+.caja2{
+    background: orange;
+}
+
+
+/* MOBILE FIRST */
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 360px) and (max-width: 768px){
+    h1{
+        color: blue;
+    }
+    .content{
+        flex-direction: column;
+    }
+} 
+
+@media (max-width: 500px){
+    .caja1{
+        background: purple;
+    }
+}

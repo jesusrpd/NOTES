@@ -1,22 +1,29 @@
-var resta = 'fsdfsd'
+// CON ESTO IMPRIMIMOS ALGO EN CONSOLA DENTRO DEL NAVEGADOR
+console.log('Gola')
 
-var operación = 10*30
-var operación2 = 10+8
-
-operación = 1
+// EN JS TENEMOS 7 TIPOS DE DATOS
 
 
-//TIPOS DE DATOS SIMPLES
-var string = 'fgsdfsdf'
-var integer = 423
-var float = 2.5
-var blooleans = true // false
+// NUMBER
+4, 5, 4.0, 6.3 -3, -6
+// STRING
+'TEXTO UNO', "TEXTO DOS", `TEXTO TRES`
+// BOOLEAN
+true, false
+// NULL
+// UNDEFINED
+// SYMBOL
+// BIGINT
 
 
-// TIPOS DE DATOS COMPLEJOS
-console.log('Como estas?')
+// OPERADORES ARITMETICOS
+// SUMA -> +
+// RESTA -> -
+// MULTIPLICACIÓN -> *
+// DIVISIÓN -> /
+// MÓDULO -> %
+// EXPONENTE -> **
 
-console.log(operación-operación2);
 
-
-document.getElementById("parrafo").innerHTML = "Hola desde js"
+// CONCATENACIÓN
+console.log('cadena uno' + 2 + ' cadena dos')
