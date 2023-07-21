@@ -24,6 +24,5 @@ true, false
 // MÓDULO -> %
 // EXPONENTE -> **
 
-
 // CONCATENACIÓN
 console.log('cadena uno' + 2 + ' cadena dos')
