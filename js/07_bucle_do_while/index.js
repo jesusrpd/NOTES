@@ -4,7 +4,7 @@
 // A HACER EL CÓDIGO QUE VIENE DENTRO DE LAS LLAVES Y DESPUÉS VA A 
 // PREGUNTAR SI LA CONDICIÓN ES CIERTA PARA SABER SI SEGUIR REPITIENDO 
 // EL CÓDIGO
-var contador = 10
+var contador = 0
 do{
     console.log(contador, ' BUCLE DO WHILE');
     contador = contador + 1;

@@ -21,6 +21,11 @@
 var contador = 5
 var contador2 = 1
 
+// PARTES ESCENCIALES DE UN BUCLE
+// 1)Contador
+// 2)Condición
+// 3)Aztualización
+
 while(contador>0){
 
     console.log(contador, 'CONSOLE.LOG 1');
