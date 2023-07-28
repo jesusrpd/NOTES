@@ -1,0 +1,5 @@
+git init -> Inicializamos un repositorio
+
+git status -> Nos da un status de nuestros archivos del repositorio y podemos usar el comando git status -s 
+
+git add #nombre_del_archivo -> Mandamos un archivo al stating area

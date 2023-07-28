@@ -4,7 +4,7 @@ CHANGE DIRECTORY -> Cambiarnos de directorios (cd)
 
 AL PONER "cd .." NOS REGRESAMOS A UN DIRECTORIO ANTERIOR
 
-LIST -> ENLISTAR EL CONTENIDO QUE TIENE UNA CARPETA (dir)
+LIST -> ENLISTAR EL CONTENIDO QUE TIENE UNA CARPETA (dir) o puedes usar ls con git
 
 EXIT -> CERRAMOS LA TERMINAL (exit)
 
@@ -12,6 +12,8 @@ CLEAR -> LIMPIAMOS LA CONSOLA (cls)
 
 HELP -> MOSTRARNOS AYUDA
 
-MAKE DIR -> CREA CARPETAS (md #nombre de la carpeta)
+MAKE DIR -> CREA CARPETAS (md #nombre de la carpeta) o mkdir en el caso de que estes en git
 
 MOVE -> MOVER CARPETAS O ARCIVHIVOS A OTRO LADO (move #que_archivo_mover #a_donde_se_va_a_mover)
+
+PWD -> ME VA A DECIR EN QUE PARETE DE LA RUTA ME ENCUENTRO (pwd)
