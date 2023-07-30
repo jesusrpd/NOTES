@@ -3,3 +3,13 @@ git init -> Inicializamos un repositorio
 git status -> Nos da un status de nuestros archivos del repositorio y podemos usar el comando git status -s 
 
 git add #nombre_del_archivo -> Mandamos un archivo al stating area
+
+git log -> Nos muestra un registro de todos los commits que hemos hecho o podemos pasar el parametro com ogit log --oneline para obtener un resumen más corto
+
+git push
+
+git pull
+
+git checkout
+
+git branch
